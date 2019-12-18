@@ -28,7 +28,7 @@ body {
 input.search {
     background: transparent;
     border-style: solid;
-    border-color: rgb(6, 63, 122);
+    border-color: white;
 
 }
 
@@ -42,13 +42,13 @@ input:focus.search {
 
 
 a:link, a:visited {
-    color: rgb(181, 185, 188);
+    color: white;
     text-decoration: unset;
     text-align: center;
 }
 
 a:active, a:hover {
-    color: rgb(6, 63, 122);
+    color: rgb(131, 214, 157);
     text-decoration: underline;
 }
 
@@ -81,12 +81,12 @@ a:active, a:hover {
 
 
 .link-group-header {
-    color: rgb(181, 185, 188);
+    color: white;
     text-align: center;
     font-size: 1.2em;
     font-weight: bold;
     height: fit-content;
-    background: rgba(1, 21, 54, 0.6);
+    background: rgba(131, 214, 157, 0.6);
 }
 
 
@@ -95,7 +95,7 @@ a:active, a:hover {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(auto-fill, 1fr);
     grid-row-gap: 2px;
-    background: rgba(6, 63, 122, 0.4);
+    background: rgba(0, 0, 0, 0.4);
     padding-bottom: 1em;
     padding-left: 1em;
 }
