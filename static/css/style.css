@@ -1,0 +1,105 @@
+body {
+    background: url("../images/cyberpunk-street-neon-abstract.jpg");
+    background-color: black;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.time {
+    margin-top: 2%;
+    font-size: 4em;
+    text-align: center;
+    color: white;
+}
+
+.date {
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+}
+
+.searchbar {
+    margin-top: 5%;
+    margin-bottom: 3em;
+}
+
+
+input.search {
+    background: transparent;
+    border-style: solid;
+    border-color: rgb(6, 63, 122);
+
+}
+
+input:focus.search {
+    background: transparent;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    box-shadow: none;
+}
+
+
+a:link, a:visited {
+    color: rgb(181, 185, 188);
+    text-decoration: unset;
+    text-align: center;
+}
+
+a:active, a:hover {
+    color: rgb(6, 63, 122);
+    text-decoration: underline;
+}
+
+
+.link_area {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 3em;
+    justify-items: center;
+}
+
+
+@media (max-width: 500px) {
+    .link_area {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 3em;
+        justify-items: center;
+    }
+}
+
+
+.link_group {
+    min-width: 300px;
+}
+
+
+.link-group-header {
+    color: rgb(181, 185, 188);
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    height: fit-content;
+    background: rgba(1, 21, 54, 0.6);
+}
+
+
+.link_list {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(auto-fill, 1fr);
+    grid-row-gap: 2px;
+    background: rgba(6, 63, 122, 0.4);
+    padding-bottom: 1em;
+    padding-left: 1em;
+}
+
+
+
+
